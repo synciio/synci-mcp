@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account or connection support
+    url: https://docs.synci.io/mcp
+    about: Contact support@synci.io for account-specific help. Do not share financial data in public issues.
+  - name: Private security report
+    url: https://github.com/synciio/synci-mcp/blob/main/SECURITY.md
+    about: Report vulnerabilities privately to support@synci.io.

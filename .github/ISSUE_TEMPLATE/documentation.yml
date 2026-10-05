@@ -1,0 +1,27 @@
+name: Documentation issue
+description: Report an incorrect instruction, broken link, or unclear example.
+title: "[Docs]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public documentation issue. Do not include credentials, tokens, authorization codes, account details, or financial data. For security reports or account support, email support@synci.io.
+  - type: input
+    id: page
+    attributes:
+      label: Affected page or example
+      placeholder: docs/clients/cursor.md
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What needs to change?
+      description: Describe the problem and expected instruction. Include official documentation links when relevant.
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Client and version, if relevant
+      description: Include only general client details; omit account identifiers.

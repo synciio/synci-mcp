@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "synci": {
+      "url": "https://api.synci.io/mcp"
+    }
+  }
+}
